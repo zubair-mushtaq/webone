@@ -1,0 +1,136 @@
+@media screen and (max-width: 992px){
+    .toggle-button{
+        display: block;
+        margin-right: 20px;
+    }
+    .nav-links{
+        display: none;
+    }
+    
+        /* .exp-o{
+            margin: 200px;
+            width: 50px;
+            display: none;
+
+        } */
+    }
+    @media screen and (max-width:767px) {
+        .header-section{
+            flex-direction: column-reverse;
+        }
+        .header-left{
+            text-align: center;
+        }
+        .header-left a{
+            width: 100%;
+        }
+        .logo{
+            width: 100px;
+        }
+        .feacture-area{
+            flex-direction: row;
+            gap: 40px;
+        }
+        .feacture-card{
+            min-width:calc(50% - 20px) 
+        }
+        .both-f{
+            flex-direction: column;
+        }
+        .big-left{
+            text-align: center;
+        }
+        .big-s{
+            flex-direction: column-reverse;
+        }
+        .big-right{
+            text-align: center;
+            flex-direction: column-reverse;
+        }
+        .big-new{
+            flex-direction: column-reverse;
+            
+        }
+        .big-n{
+            flex-direction: column;
+            width: 100%;
+        }
+        h3{
+            font-size:1.5rem ;
+            color: var(--accennt-color-dark);
+        }
+        h2{
+            color: var(--accennt-color-dark);
+        }
+        h1{
+            color: var(--accennt-color-dark);
+        }
+        h4{
+            font-size: 1.2rem;
+            color: var(--accennt-color-dark);
+        }
+        .cta-section-container{
+            margin-top: 40px;
+            width: 100%;
+        
+        }
+        .same-btn{
+            width:80%;
+        }
+        .cta-section-container h2{
+            color: white;
+        }
+        .footer-sec{
+            flex-direction: column;
+            align-items: center;
+            gap: 40px; 
+
+        }
+        .link-item{
+            align-items: stretch;
+            text-align: center;
+        }
+        .foot-a{
+            flex-wrap: wrap;
+        }
+
+    }
+    @media screen and ( max-width: 479px) {
+        :root{
+            --padding-inline-section:10px;
+        }
+        .header-right img{
+            width: 80vw;
+
+        }
+        h1{
+            font-size: 1.5rem;
+        }
+        h2{
+            font-size: 1.2rem;
+        }
+        h3{
+            font-size: 1rem;
+        }
+            p{
+                font-size: rem;
+        }
+        .big-right img{
+            width:80vw ;
+        }
+        .big-left img{
+            width: 80vw;
+        }
+        .big-new img{
+            width: 80vw;
+        }
+        .feacture-area{
+            flex-direction: column;
+        }
+    }
+        
+    
+    
+   
+ 
+
